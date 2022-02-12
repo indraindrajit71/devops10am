@@ -11,4 +11,4 @@ RUN cd /tmp && tar -xvf tomcat.tar.gz
 RUN cp -Rv  /tmp/apache-tomcat-8.5.75/* /usr/local/tomcat/
 
 EXPOSE 8080
-CMD ["/usr/local/tomcat/bin/startup.sh"]
+CMD ["/usr/local/tomcat/bin/catalina.sh"]
